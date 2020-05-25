@@ -1,0 +1,2 @@
+jupyter:
+    image: jupyter/datascience-notebook
