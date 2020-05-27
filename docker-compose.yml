@@ -1,2 +1,7 @@
 jupyter:
     image: jupyter/datascience-notebook
+    ports:
+        - "8888:8888"
+    volumes:
+        - ./data/jupyter:/home/jovyan
+    restart: always
